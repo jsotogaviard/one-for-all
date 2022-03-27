@@ -1,0 +1,9 @@
+<manifest>
+    <remote name="gladiaio" fetch="https://github.com/gladiaio" />
+    <default revision="refs/heads/main" remote="gladiaio" sync-j="4" />
+    <project name="docker-base" remote="gladiaio" path="docker-base" />
+    <project name="docs" remote="gladiaio" path="docs" />
+    <project name="gladia" remote="gladiaio" path="gladia" />
+    <project name="gladia-api-utils" remote="gladiaio" path="gladia-api-utils" />
+    <project name="gladia-sdk" remote="gladiaio" path="gladia-sdk" />
+</manifest>
